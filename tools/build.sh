@@ -107,3 +107,10 @@ rm -rf "R.tar.gz"
 # remove the packages downloaded to image's pacman cache dir.
 pacman -Sy --noconfirm pacman-contrib
 paccache -r -k0
+
+# Check the R info
+echo -e "Check the R info...\n"
+
+R -q -e "sessionInfo()"
+
+echo -e "\nInstall R from source, done!"
