@@ -31,11 +31,9 @@ pacman -Syu --noconfirm --needed                       \
     zip                                                \
     blas-openblas                                      \
     gcc-fortran                                        \
-    texlive-bin                                        \
+    texlive-basic                                      \
     tk                                                 \
-    jdk-openjdk                                        \
-    texlive-core                                       \
-    tk
+    jdk-openjdk
 
 # build R from source
 
