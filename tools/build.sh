@@ -31,7 +31,7 @@ pacman -Syu --noconfirm --needed                       \
     zip                                                \
     blas-openblas                                      \
     gcc-fortran                                        \
-    texlive-basic                                      \
+    texlive-core                                       \
     tk                                                 \
     jdk-openjdk
 
